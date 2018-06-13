@@ -23,7 +23,7 @@ SELECT * FROM Artist;
 ```
 
 </details>
-
+SELECT FirstName, LastName, Country FROM Employee
 ## Step 2
 
 ### Instructions
