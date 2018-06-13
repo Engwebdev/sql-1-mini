@@ -74,6 +74,8 @@ SELECT the count FROM the Track table WHERE the Milliseconds are greater than 29
 
 ### Solution
 
+Select count(\*) FROM Track WHERE Milliseconds > 299000;
+
 <details>
 
 <summary> <code> SQL Solution </code> </summary>
