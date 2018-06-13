@@ -33,9 +33,8 @@ SELECT the FirstName, LastName, and Country FROM the Employee table.
 ### Solution
 
 <details>
-SELECT Name, Composer, Milliseconds
-FROM Track
-WHERE Milliseconds > 299000;
+SELECT FirstName, LastName, Country
+FROM Employee;
 <summary> <code> SQL Solution </code> </summary>
 
 ```sql
@@ -54,7 +53,9 @@ SELECT the Name, Composer, and Milliseconds FROM the Track table WHERE the Milli
 ### Solution
 
 <details>
-
+SELECT Name, Composer, Milliseconds
+FROM Track
+WHERE Milliseconds > 299000;
 <summary> <code> SQL Solution </code> </summary>
 
 ```sql
